@@ -10,16 +10,18 @@
 
     <TextView
         android:id="@+id/log"
-        android:layout_width="wrap_content"
-        android:layout_height="72dp"
-        android:layout_marginStart="88dp"
+        android:layout_width="286dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="483dp"
-        android:layout_marginEnd="94dp"
-        android:layout_marginBottom="202dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="212dp"
         android:background="#CAA6F3"
         android:text="Don't have an Account? Click to Signup here!"
         android:textAlignment="center"
-        android:textColor="#0E0D0D" />
+        android:textColor="#534E4E"
+        android:textSize="20sp"
+        />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -78,9 +80,9 @@
         android:id="@+id/lpassword"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginStart="59dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="408dp"
-        android:layout_marginEnd="62dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginBottom="279dp"
         android:background="#A994F4"
         android:ems="10"
@@ -97,7 +99,7 @@
         android:layout_marginTop="557dp"
         android:layout_marginEnd="145dp"
         android:layout_marginBottom="118dp"
-        android:background="#854EED"
+        android:background="#A75FFA"
         android:text="Login"
         android:textColor="#090909" />
 

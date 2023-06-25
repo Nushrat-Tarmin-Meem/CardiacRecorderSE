@@ -13,14 +13,16 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.ActionCodeSettings;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
     EditText mail,passwordl;
-    TextView log;
+    TextView log,log2;
     Button login;
     FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,8 +57,14 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
-                        Toast.makeText( LoginActivity.this,"User Logged Successfully!", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+                        if(mAuth.getCurrentUser().isEmailVerified()){
+                            Toast.makeText( LoginActivity.this,"Logged Successfully!", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+
+                        }
+                        else {
+                            Toast.makeText( LoginActivity.this,"Please Verify Your Email!", Toast.LENGTH_SHORT).show();
+                        }
                     }else {
                         Toast.makeText( LoginActivity.this,"User Signin Error!"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }

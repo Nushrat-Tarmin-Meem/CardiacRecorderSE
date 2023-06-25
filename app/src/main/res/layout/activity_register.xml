@@ -100,25 +100,27 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="141dp"
-        android:layout_marginBottom="61dp"
+        android:layout_marginBottom="80dp"
         android:background="#2196F3"
         android:text="Register"
         android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/regi"
-        android:layout_width="wrap_content"
-        android:layout_height="47dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="549dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="131dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="180dp"
         android:background="#4FADD3"
         android:text="Already have an Account? Click to Signin here!"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

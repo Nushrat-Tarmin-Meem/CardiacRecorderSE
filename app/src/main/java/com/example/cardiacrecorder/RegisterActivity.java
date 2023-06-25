@@ -57,11 +57,22 @@ public class RegisterActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
+                        mAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                if(task.isSuccessful()){
+                                    Toast.makeText( RegisterActivity.this,"User Registered Successfully!", Toast.LENGTH_SHORT).show();
 
-                        Toast.makeText( RegisterActivity.this,"User Registered Successfully!", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(RegisterActivity.this,HomeActivity.class));
+                                }
+                                else {
+                                    Toast.makeText( RegisterActivity.this,"User Registration Error!"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+
+                                }
+                            }
+                        });
                     }else {
                         Toast.makeText( RegisterActivity.this,"User Registration Error!"+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+
                     }
                 }
             });
