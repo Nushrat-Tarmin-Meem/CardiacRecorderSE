@@ -41,7 +41,7 @@ public class AddRecordActivity extends AppCompatActivity {
         binding.textTime.setText(currentTime);
         Intent i=getIntent();
         String email=i.getStringExtra("Email");
-        binding.addemail.setText(email);
+        binding.addemail.setText(String.valueOf(email));
         binding.submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
