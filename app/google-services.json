@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649362185623",
+    "project_id": "cardiacrecorderproject",
+    "storage_bucket": "cardiacrecorderproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649362185623:android:bf73b481ac413033c578d2",
+        "android_client_info": {
+          "package_name": "com.example.cardiacrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649362185623-b2cap8qp7b4htoqn1gme9ve2djsclm38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABK8PsQ3u_FVYN2rf84V24ZlR40BEzu_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649362185623-b2cap8qp7b4htoqn1gme9ve2djsclm38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

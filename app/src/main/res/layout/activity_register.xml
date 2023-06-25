@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="480dp"
+        android:src="@drawable/signup"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="429dp"
+        android:layout_weight="1"
+        android:text="Welcome for Registration"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#86E6E6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:id="@+id/rmail"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="344dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:hint="Enter Your Email Address"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColorHint="#686262" />
+
+    <EditText
+        android:id="@+id/rpassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="278dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#686262" />
+
+    <EditText
+        android:id="@+id/rcpassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="213dp"
+        android:background="@color/teal_200"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#686262" />
+
+    <Button
+        android:id="@+id/rbutton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="61dp"
+        android:background="#2196F3"
+        android:text="Register"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/regi"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="131dp"
+        android:background="#4FADD3"
+        android:text="Already have an Account? Click to Signin here!"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
