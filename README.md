@@ -55,10 +55,19 @@ To run this project, you will need to add the following environment variables to
 <img alt="" width="250" height="500" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/6bee9f2a-3ad5-4c6f-931f-39cdced58c34">
 <img alt="" width="250" height="500" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/9e904500-3d06-4522-b9e5-a51cd180419a">
 
-## Documentation
 
-[Javadoc](https://linktodocumentation)
+## Contribution
+<table>
+  <tr><th>Name : Nushrat Tarmin Meem</th><th>Name : Nusrat Jahan Jonaki</th></tr>
+  <tr><th>Roll : 1907083</th><th>Roll : 1907067</th></tr>
+  <tr><td>Signup & Signin with Email Autehntication & Verification</td><td>Javadoc Addition</td></tr>
+  <tr><td>Records Add & View with Constrains Coloring using Firebase Realtime Database</td><td>Records Update & Delete</td></tr>
+  <tr><td>Mockup Design</td><td>UML Design</td></tr>
+  <tr><td>UI Testing & Video</td><td>Unit Testing & Video</td></tr>
+  <tr><td>Readme Design</td><td>Wiki Design</td></tr>
+  </table>
+
 
 ## Feedback
 
-If you have any feedback, please reach out to us at https://github.com/Nushrat-Tarmin-Meem
+If you have any feedback, please reach out to us at https://github.com/Nushrat-Tarmin-Meem or https://github.com/Jonaki067/
