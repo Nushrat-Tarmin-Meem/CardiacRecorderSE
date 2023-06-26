@@ -7,7 +7,7 @@
     tools:context=".ViewRecordActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recordlist"
+        android:id="@+id/Records"
         android:layout_width="409dp"
         android:layout_height="729dp"
         app:layout_constraintBottom_toBottomOf="parent"

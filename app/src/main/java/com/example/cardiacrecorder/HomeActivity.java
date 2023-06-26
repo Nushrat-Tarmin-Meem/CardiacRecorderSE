@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class HomeActivity extends AppCompatActivity {
     private Button btnlogOut,AddBtn, ViewBtn;
     private FirebaseAuth mAuth;
-    EditText mail,name;
+    EditText mail,uniquename;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +23,8 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         btnlogOut=findViewById(R.id.blo);
         AddBtn=findViewById(R.id.addRecord);
+        uniquename=findViewById(R.id.uname);
         ViewBtn=findViewById(R.id.viewRecord);
-        name=findViewById(R.id.name2);
         Intent i=getIntent();
         String email=i.getStringExtra("Email");
         mail=findViewById(R.id.addemail2);
@@ -50,7 +50,7 @@ public class HomeActivity extends AppCompatActivity {
                 Intent intent = new Intent(HomeActivity.this, ViewRecordActivity.class);
                 startActivity(intent);
                 Intent i=new Intent(getApplicationContext(),ViewRecordActivity.class);
-                i.putExtra("Name", String.valueOf(name));
+                i.putExtra("Name",uniquename.getText().toString().replaceAll("[.#$\\[\\]]", ""));
                 startActivity(i);
             }
         });

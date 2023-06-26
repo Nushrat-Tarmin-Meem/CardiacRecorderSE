@@ -1,6 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp"
+    android:background="#76FA8C">
 
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jashi"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+       /></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistolic Pressure :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+/>
+        <TextView
+            android:id="@+id/isis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80"
+            android:textColor="#22913E"
+            android:layout_marginLeft="10dp"
+            android:textSize="26sp"
+            /></LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diastolic Pressure :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/idias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70"
+            android:textColor="#22913E"
+            android:layout_marginLeft="10dp"
+            android:textSize="26sp"
+            /></LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heartbeat Rate :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/irate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="70"
+                android:textColor="#22913E"
+                android:layout_marginLeft="10dp"
+                android:textSize="26sp"
+                /></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comments :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/icomment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xyz"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                /></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/idate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26 Jun Year"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textSize="22sp"
+                /></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/itime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23.45.64"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textSize="22sp"
+                /></LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/update"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="#69F688"
+                android:text="UPDATE"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"></Button>
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:background="#FD4646"
+                android:text="DELETE"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"></Button>
+
+            </LinearLayout>
+
+    </LinearLayout>
 </androidx.cardview.widget.CardView>

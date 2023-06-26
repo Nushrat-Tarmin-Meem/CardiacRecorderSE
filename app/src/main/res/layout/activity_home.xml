@@ -8,12 +8,12 @@
     android:background="@color/black">
 
     <EditText
-        android:id="@+id/name2"
+        android:id="@+id/uname"
         android:layout_width="270dp"
         android:layout_height="59dp"
-        android:background="#95F3BA"
+        android:background="#6CEFC5"
         android:ems="10"
-        android:hint="Your Name According to Mail"
+        android:hint="Name According to Mail"
         android:inputType="text"
         android:textAlignment="center"
         android:textColorHint="#A69999"
@@ -22,7 +22,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.581" />
+        app:layout_constraintVertical_bias="0.657" />
 
     <EditText
         android:id="@+id/addemail2"
@@ -45,17 +45,17 @@
         android:id="@+id/blo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:background="#7BECB2"
         android:text="LOGOUT"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        app:layout_constraintVertical_bias="0.844" />
+        app:layout_constraintVertical_bias="0.862" />
 
     <Button
         android:id="@+id/addRecord"
@@ -87,7 +87,7 @@
         app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685" />
+        app:layout_constraintVertical_bias="0.762" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -118,9 +118,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.122" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
