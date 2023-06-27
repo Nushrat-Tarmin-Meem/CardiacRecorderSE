@@ -56,7 +56,7 @@ public class AddRecordActivity extends AppCompatActivity {
                     Records records= new Records(mail,sis,dias,rate,comment,d,t);
                     db=FirebaseDatabase.getInstance();
                     reference=db.getReference("Records");
-                    reference.child(mail).push().setValue(records).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    reference.child(mail).child(t).setValue(records).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             binding.addemail.setText("");
