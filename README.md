@@ -55,10 +55,7 @@ To run this project, you will need to add the following environment variables to
 <img alt="" width="250" height="500" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/6bee9f2a-3ad5-4c6f-931f-39cdced58c34">
 <img alt="" width="250" height="500" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/9e904500-3d06-4522-b9e5-a51cd180419a">
 
-## UI Testing Android Studio Video
-
-
-## UI Testing Phone Video
+## UI Testing Video
 https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/a874a286-a43f-4028-8399-6fc7905825a3
 
 ## Contribution
