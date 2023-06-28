@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:id="@+id/hac">
 
     <EditText
         android:id="@+id/uname"
@@ -22,7 +23,8 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657" />
+        app:layout_constraintVertical_bias="0.657"
+        />
 
     <EditText
         android:id="@+id/addemail2"

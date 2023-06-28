@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AddRecordActivity"
-    android:background="#00BCD4">
+    android:background="#00BCD4"
+    android:id="@+id/addactivity">
 
     <EditText
         android:id="@+id/name"

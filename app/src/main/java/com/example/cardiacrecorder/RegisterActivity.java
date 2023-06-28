@@ -3,9 +3,11 @@ package com.example.cardiacrecorder;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -20,9 +22,10 @@ public class RegisterActivity extends AppCompatActivity {
 
     EditText rmail,rpassword,cpassword;
     TextView regi;
-    Button rtn;
+    Button rtn,rb;
     FirebaseAuth mAuth;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,10 +35,17 @@ public class RegisterActivity extends AppCompatActivity {
         cpassword = findViewById(R.id.rcpassword);
         rtn = findViewById(R.id.rbutton);
         regi = findViewById(R.id.regi);
-
+        rb=findViewById(R.id.rb);
         mAuth = FirebaseAuth.getInstance();
         rtn.setOnClickListener(view -> {
             createUser();
+        });
+
+        rb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(RegisterActivity.this, MainActivity.class));
+            }
         });
 
         regi.setOnClickListener(view -> {
