@@ -14,6 +14,11 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,15 +27,25 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
     Context context;
     ArrayList<Records> list;
     Integer a,b,c;
+    DatabaseReference database;
+
+
+
+
+
+
 
     public MyAdapter(Context context, ArrayList<Records> list) {
         this.context = context;
         this.list = list;
+
+
     }
 
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        database=FirebaseDatabase.getInstance().getReference("Records");
         View v= LayoutInflater.from(context).inflate(R.layout.item,parent, false);
         return new MyViewHolder(v);
     }
@@ -72,7 +87,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
         return list.size();
     }
 
-    public static class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView name,sistolic,diastolic,hrate,comments,date,time;
         Button u,d;
@@ -89,12 +104,37 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
             d=itemView.findViewById(R.id.delete);
             u.setOnClickListener(this);
             d.setOnClickListener(this);
+
+
         }
+
 
 
         @Override
-        public void onClick(View view) {
+        public void onClick(View v) {
+            int position = getAdapterPosition();
+            if(position !=RecyclerView.NO_POSITION)
+            {
+
+
+                 switch(v.getId())
+                 {
+                     case R.id.update:
+
+                         Intent intent = new Intent(context,UpdateActivity.class);
+                         context.startActivity(intent);
+
+                         break;
+                     case R.id.delete:
+                        // deleteRecord(RecordId,position);
+                         Intent i = new Intent(context,DeleteData.class);
+                         context.startActivity(i);
+                         break;
+
+                 }
+            }
 
         }
     }
+
 }
