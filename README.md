@@ -65,7 +65,7 @@ https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/a874a2
 <table>
   <tr><th>Name : Nushrat Tarmin Meem</th><th>Name : Nusrat Jahan Jonaki</th></tr>
   <tr><th>Roll : 1907083</th><th>Roll : 1907067</th></tr>
-  <tr><td>Signup & Signin with Email Autehntication & Verification</td><td>Javadoc Addition</td></tr>
+  <tr><td>Signup & Signin with Email Authentication & Verification</td><td>Javadoc Addition</td></tr>
   <tr><td>Records Add & View with Constrains Coloring using Firebase Realtime Database</td><td>Records Update & Delete</td></tr>
   <tr><td>Mockup Design</td><td>UML Design</td></tr>
   <tr><td>UI Testing & Video</td><td>Unit Testing & Video</td></tr>
