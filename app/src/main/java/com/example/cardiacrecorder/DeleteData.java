@@ -35,7 +35,7 @@ public class DeleteData extends AppCompatActivity {
             }
         });
     }
-    private void deleteData(String d_name,String d_time){
+    public void deleteData(String d_name,String d_time){
         databaseReference= FirebaseDatabase.getInstance().getReference("Records");
         databaseReference.child(d_name).child(d_time).removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override

@@ -59,7 +59,7 @@ public class UpdateActivity extends AppCompatActivity {
         });
     }
 
-    private void updateData(String preTime,String mail, String sys, String dias,String time,String date,String rate,String comment) {
+    public void updateData(String preTime,String mail, String sys, String dias,String time,String date,String rate,String comment) {
         HashMap User = new HashMap();
 
         User.put("PreTime", preTime);
