@@ -67,6 +67,7 @@ public class AddRecordActivity extends AppCompatActivity {
                             binding.textDate.setText("");
                             binding.textTime.setText("");
                             Toast.makeText(AddRecordActivity.this, "Successfully Added Record", Toast.LENGTH_SHORT).show();
+
                         }
                     });
                 }
