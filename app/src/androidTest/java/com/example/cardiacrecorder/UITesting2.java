@@ -17,7 +17,7 @@ public class UITesting2 {
     @Before
     public void setUp() throws Exception {
     }
-    private String name="Meem", sys="80", dias="110", rate="150";
+    private String name="Meem", sys="100", dias="110", rate="110";
     private String email="meem.cse.2k19@gmail.com";
     private String password="1234@5678";
     @Rule
