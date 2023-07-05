@@ -48,11 +48,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
         a=Integer.valueOf(holder.sistolic.getText().toString());
         b=Integer.valueOf(holder.diastolic.getText().toString());
         c=Integer.valueOf(holder.hrate.getText().toString());
-        if(a<70)
+        if(a<90 || a>140)
         {
             holder.sistolic.setTextColor(Color.parseColor("#FF0000"));
         }
-        if(b>120)
+        if(b<60 || b>90)
         {
             holder.diastolic.setTextColor(Color.parseColor("#FF0000"));
         }
