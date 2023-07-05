@@ -34,6 +34,8 @@ This project is all about Android Application and Collaborative Work.
 - Signup & signin through email verification
 - Viewing of all data records at any time
 
+## UML Design
+![uml](https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/09df8fc2-dd84-4b2c-8f50-fbc3a1cc2feb)
 
 ## Mockup Design
 ![mock](https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/3c5077ca-07ed-4092-aa22-4f73ca99cab3)
