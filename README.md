@@ -4,8 +4,8 @@
 <table>
   <tr><th>Name : Nushrat Tarmin Meem</th><th>Name : Nusrat Jahan Jonaki</th></tr>
   <tr><th>Roll : 1907083</th><th>Roll : 1907067</th></tr>
-  <tr><td><img align="left" alt=""  height="400" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/df899e22-136d-4067-8d43-c9bd738019bd"></td>
-  <td><img align="left" alt="" width="280" src="https://avatars.githubusercontent.com/u/127912855?v=4"></td></tr>
+  <tr><td><img align="left" alt=""  height="350" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/df899e22-136d-4067-8d43-c9bd738019bd"></td>
+  <td><img align="left" alt="" height="350" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/dc27a61b-d8e8-43d5-9e19-ab16397e945b"></td></tr>
 </table>
 
 ## 🔗 Profile Links
@@ -55,12 +55,17 @@ To run this project, you will need to add the following environment variables to
 <img alt="" width="250" height="500" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/6bee9f2a-3ad5-4c6f-931f-39cdced58c34">
 <img alt="" width="250" height="500" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/9e904500-3d06-4522-b9e5-a51cd180419a">
 
+## UI Testing Android Studio Video
+https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/1e06f0c9-a2cb-4934-b78c-6ece8ce6f455
+
+## UI Testing Android Device Video
+https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/a874a286-a43f-4028-8399-6fc7905825a3
 
 ## Contribution
 <table>
   <tr><th>Name : Nushrat Tarmin Meem</th><th>Name : Nusrat Jahan Jonaki</th></tr>
   <tr><th>Roll : 1907083</th><th>Roll : 1907067</th></tr>
-  <tr><td>Signup & Signin with Email Autehntication & Verification</td><td>Javadoc Addition</td></tr>
+  <tr><td>Signup & Signin with Email Authentication & Verification</td><td>Javadoc Addition</td></tr>
   <tr><td>Records Add & View with Constrains Coloring using Firebase Realtime Database</td><td>Records Update & Delete</td></tr>
   <tr><td>Mockup Design</td><td>UML Design</td></tr>
   <tr><td>UI Testing & Video</td><td>Unit Testing & Video</td></tr>
