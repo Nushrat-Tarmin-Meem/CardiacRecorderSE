@@ -73,6 +73,35 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-1745026237">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="ABCD_API_30" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="R58T50E601B" value="120" />
+                  <entry key="Tests" value="360" />
+                  <entry key="samsung" value="120" />
+                  <entry key="samsung&#10; SM-A235F" value="120" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="-1319693431">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="ABCD_API_30" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-1307212429">
           <value>
             <AndroidTestResultsTableState>
@@ -115,6 +144,19 @@
             </AndroidTestResultsTableState>
           </value>
         </entry>
+        <entry key="-795661905">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="ABCD_API_30" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Tests" value="360" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
         <entry key="-204958930">
           <value>
             <AndroidTestResultsTableState>
@@ -124,6 +166,19 @@
                   <entry key="R58T50E601B" value="120" />
                   <entry key="Tests" value="360" />
                   <entry key="samsung&#10; SM-A235F" value="120" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="-178834641">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="ABCD_API_30" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Tests" value="360" />
                 </map>
               </option>
             </AndroidTestResultsTableState>
@@ -379,6 +434,19 @@
                   <entry key="R58T50E601B" value="120" />
                   <entry key="Tests" value="360" />
                   <entry key="samsung&#10; SM-A235F" value="120" />
+                </map>
+              </option>
+            </AndroidTestResultsTableState>
+          </value>
+        </entry>
+        <entry key="2022413548">
+          <value>
+            <AndroidTestResultsTableState>
+              <option name="preferredColumnWidths">
+                <map>
+                  <entry key="ABCD_API_30" value="120" />
+                  <entry key="Duration" value="90" />
+                  <entry key="Tests" value="360" />
                 </map>
               </option>
             </AndroidTestResultsTableState>

@@ -8,7 +8,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,7 +29,6 @@ public class ViewRecordActivity extends AppCompatActivity {
     MyAdapter myAdapter;
     ArrayList<Records> list;
     String name;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,7 @@ public class ViewRecordActivity extends AppCompatActivity {
         recyclerView =findViewById(R.id.Records);
         Intent i=getIntent();
         name=i.getStringExtra("Name");
+        //re.set_E_Id(name);
         database= FirebaseDatabase.getInstance().getReference("Records");
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -55,6 +60,7 @@ public class ViewRecordActivity extends AppCompatActivity {
 
             }
         });
-
     }
+
+
 }
