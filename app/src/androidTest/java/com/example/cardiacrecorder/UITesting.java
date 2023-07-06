@@ -15,7 +15,6 @@ import androidx.test.espresso.action.ViewActions;
 import androidx.test.rule.ActivityTestRule;
 import org.junit.Rule;
 
-
 public class UITesting {
     @Rule
     public ActivityTestRule<MainActivity> mainActivityActivityTestRule= new ActivityTestRule<MainActivity>(MainActivity.class);
@@ -25,7 +24,11 @@ public class UITesting {
     @Before
     public void setUp() throws Exception {
     }
+
     @Test
+    /**
+     * This method is for registration and login portion of ui/intent testing
+     */
     public void registerandlogin()
     {
         onView(withId(R.id.mainactivity)).check(matches(isDisplayed()));

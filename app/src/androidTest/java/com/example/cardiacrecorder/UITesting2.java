@@ -22,6 +22,10 @@ public class UITesting2 {
     private String password="1234@5678";
     @Rule
     public ActivityTestRule<HomeActivity> homeActivityActivityTestRule = new ActivityTestRule<HomeActivity>(HomeActivity.class);
+
+    /**
+     * This method is for addrecording UI testing
+     */
     @Test
     public void addrecording()
     {
@@ -44,6 +48,9 @@ public class UITesting2 {
         Espresso.pressBack();
     }
 
+    /**
+     * This method is for viewrecording UI testing
+     */
     @Test
     public void viewrecord()
     {
@@ -53,6 +60,10 @@ public class UITesting2 {
         onView(withId(R.id.viewRecord)).perform(click());
         onView(withId(R.id.viewrecording)).check(matches(isDisplayed()));
     }
+
+    /**
+     * This method is for logout UI testing
+     */
     @Test
     public void logout()
     {
