@@ -55,8 +55,8 @@ public class UnitTesting {
     @Test
     public void testAddData() {
         activity.runOnUiThread(() -> {
-            nameEditText.setText("Surovi");
-            systolicEditText.setText("75");
+            nameEditText.setText("Meem");
+            systolicEditText.setText("76");
             diastolicEditText.setText("75");
             heartRateEditText.setText("75");
             commentEditText.setText("UnitTest");

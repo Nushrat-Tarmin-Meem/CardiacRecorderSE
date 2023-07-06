@@ -51,7 +51,7 @@ public class UnitTesting2 {
     public void testUpdateData() {
         upactivity.runOnUiThread(() -> {
             // Set up the test data
-            preTime = "15:24:32";
+            preTime = "21:22:37";
             mail = "Meem";
             sys = "50";
             dias = "50";
