@@ -4,7 +4,7 @@
 <table>
   <tr><th>Name : Nushrat Tarmin Meem</th><th>Name : Nusrat Jahan Jonaki</th></tr>
   <tr><th>Roll : 1907083</th><th>Roll : 1907067</th></tr>
-  <tr><td><img align="left" alt="" height="350" src="https://github.com/Nushrat-Tarmin-Meem/CardiacRecorderSE/assets/127888834/df899e22-136d-4067-8d43-c9bd738019bd" ></td>
+  <tr><td><img align="left" alt="" height="350" src="https://github.com/account"></td>
   <td><img align="left" alt="" height="350" src="https://avatars.githubusercontent.com/u/127912855?v=4"></td></tr>
 </table>
 
