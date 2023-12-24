@@ -4,7 +4,7 @@
 <table>
   <tr><th>Name : Nushrat Tarmin Meem</th><th>Name : Nusrat Jahan Jonaki</th></tr>
   <tr><th>Roll : 1907083</th><th>Roll : 1907067</th></tr>
-  <tr><td><img align="left" alt="" height="350" src="https://github.com/account"></td>
+  <tr><td><img align="left" alt="" height="350" src="https://avatars.githubusercontent.com/u/127888834?s=400&u=d051568dd72439f524ab13ecdddbed152fbb2a37&v=4"></td>
   <td><img align="left" alt="" height="350" src="https://avatars.githubusercontent.com/u/127912855?v=4"></td></tr>
 </table>
 
